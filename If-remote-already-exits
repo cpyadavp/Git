@@ -1,0 +1,20 @@
+git remote -v
+
+origin  https://github.com/username/old-repository.git (fetch)
+origin  https://github.com/username/old-repository.git (push)
+
+If the existing remote is incorrect or outdated, proceed to update it.
+
+1st method :
+
+git remote set-url origin https://github.com/cpyadavp/Portfolio.git
+git remote -v
+
+2nd method :
+git remote remove origin
+git remote add origin https://github.com/cpyadavp/Portfolio.git
+
+Final step :
+git push -u origin main
+
+
