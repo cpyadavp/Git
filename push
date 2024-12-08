@@ -1,0 +1,13 @@
+cd /path/to/your/directory
+git init
+git add .
+git commit -m "Initial commit"
+
+Log in to your GitHub account.
+Click the "+" icon in the top-right corner and select New Repository.
+Name your repository and click Create Repository.
+
+git remote add origin https://github.com/username/repository.git
+
+git branch -M main  # Ensures your branch is named 'main'
+git push -u origin main
